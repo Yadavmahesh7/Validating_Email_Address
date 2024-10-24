@@ -14,9 +14,9 @@ public class EmailValidator {
         Matcher matcher = pattern.matcher(email);
 
         if (matcher.matches()) {
-            System.out.println("Valid email address");
+            System.out.println("Your email address is  Valid");
         } else {
-            System.out.println("Invalid email address");
+            System.out.println("Your email address is Invalid");
         }
     }
 }
